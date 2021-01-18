@@ -1,0 +1,62 @@
+*
+{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	border: solid greenyellow 2px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap');
+
+
+main
+{
+	border: solid red 2px;
+}
+
+html
+{
+	font-size: calc(1em + 1vw);
+	font-family: 'Hind Siliguri', sans-serif;
+}
+
+#name
+{
+	font-size: 2rem;
+}
+
+section
+{
+	margin: 1em;
+}
+
+#introduction
+{
+	display: grid;
+}
+
+#introduction-content
+{
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+#more-info
+{
+	display: grid;
+}
+
+#more-info-content
+{
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+main
+{
+	margin: 10vmin;
+}
