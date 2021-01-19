@@ -3,7 +3,7 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-	/* border: solid greenyellow 2px; */
+	/* border: solid royalblue 2px; */
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap');
@@ -12,6 +12,8 @@
 main
 {
 	/* border: solid red 2px; */
+	display: grid;
+	margin: 10vmin;
 }
 
 html
@@ -33,30 +35,42 @@ section
 #introduction
 {
 	display: grid;
+	grid-template-columns: 1fr 1fr;
+	align-items: center;
+	justify-items: center;
+	/* border: solid blue 2px; */
 }
 
 #introduction-content
 {
+	/* border: solid red 2px; */
+}
+
+
+#photo
+{
 	display: grid;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
+	justify-items:center;
+	/* border: solid red 2px; */
+}
+
+#img
+{
+	border-radius: 5px;
+	transition: transform 1s, box-shadow 1s;
+	/* border: solid red 2px; */
+
+}
+
+#img:hover
+{
+	/* transform: translateX(-30px);
+	transform: translateY(-25px); */
+	transform: translate(-30px, -25px);
+	box-shadow: 30px 25px 0px 0px #000000;
 }
 
 #more-info
 {
-	display: grid;
-}
-
-#more-info-content
-{
-	display: grid;
-	justify-content: center;
-	align-items: center;
 	text-align: center;
-}
-
-main
-{
-	margin: 10vmin;
 }
