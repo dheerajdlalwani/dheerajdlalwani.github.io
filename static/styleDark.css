@@ -8,3 +8,13 @@ body
 {
     color:#9DD4FF;
 }
+
+.project
+{
+    background-color: #1D2433;
+}
+
+.project:hover
+{
+    background-color: #2F3B54;
+}
